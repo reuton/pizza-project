@@ -8,7 +8,8 @@ class MenuService {
         Product.init(name: "Овощная", description: "Много овощей!", price: 450, image: "vegetable"),
         Product.init(name: "Новая1", description: "Много овощей!", price: 450, image: "vegetable"),
         Product.init(name: "Новая2", description: "Много овощей!", price: 450, image: "vegetable"),
-        Product.init(name: "Новая3", description: "Много овощей!", price: 450, image: "vegetable")
+        Product.init(name: "Новая3", description: "Много овощей!", price: 450, image: "vegetable"),
+        Product.init(name: "Новая4", description: "Много овощей!", price: 450, image: "vegetable")
     ]
     
     func fetchPizza() -> [Product] {
