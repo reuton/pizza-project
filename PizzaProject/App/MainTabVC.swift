@@ -42,18 +42,7 @@ class MainTabVC: UITabBarController {
         viewControllers = [menuVC, cartVC]
         
         self.tabBar.tintColor = .black
-        //self.tabBar.barTintColor = .black
-        //self.tabBar.unselectedItemTintColor = .red
-        //self.tabBar.backgroundColor = .black
-        
-//        let tabBarAppearance = UITabBarAppearance()
-//         tabBarAppearance.backgroundColor = .white
-//         tabBarAppearance.stackedLayoutAppearance.selected.titleTextAttributes = [.foregroundColor: UIColor.red]
-//         tabBarAppearance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.black]
-//         tabBarAppearance.stackedLayoutAppearance.normal.iconColor = UIColor.black
-//         tabBarAppearance.stackedLayoutAppearance.selected.iconColor = UIColor.red
-         //tabBarView.standardAppearance = tabBarAppearance
-         //tabBarView.scrollEdgeAppearance = tabBarAppearance
+
     }
         
     
